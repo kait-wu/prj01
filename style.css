@@ -1,0 +1,48 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:800px;
+    margin:0 auto;
+    font-size: 15px;
+}
+
+header{
+    width:auto;
+    height:110px;
+    background-color:pink;
+}
+.content-area{
+    display:flex;
+}
+article{
+    flex:2;
+    /* border-style:dashed; */
+    padding-top:20px;
+    padding-left:20px;
+}
+aside{
+    flex:1;
+    padding-top:20px;
+    padding-left:20px;
+}
+.nav{
+    display:flex;
+}
+.nav-list{
+    list-style:none;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    width:18%; 
+}
+#footer-p{
+    background-color: pink;
+    color:grey;
+}
+.h1{
+    text-align: center;
+}
+
